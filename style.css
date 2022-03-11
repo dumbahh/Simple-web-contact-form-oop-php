@@ -1,0 +1,62 @@
+#customer {
+  border:solid;
+  margin:auto;
+  text-align: center;
+  width:362px;
+  height:200px;
+  border-color: #4f4f4f;
+  background-color: #4f4f4f;
+  color: #e0e0e0;
+}
+
+#name, #email {
+  display: inline-block;
+  width: 0px auto;
+  margin: 15px 5px 15px 5px;
+  padding: 5px;
+}
+
+form {
+  text-align: center;
+}
+
+#comment-form {
+  width: 354px;
+  height: 60px;
+}
+
+#comment-form:not(:placeholder-shown){
+  vertical-align: top;
+}
+
+#type-form, #submit-form {
+  width: 177px;
+  height: 21px;
+}
+
+body {
+  background-color: #242424;
+}
+
+#name-form, #email-form, #comment-form, #type-form, #comment-submit {
+  background-color: #4f4f4f;
+  color: #e0e0e0;
+}
+
+#name-form::placeholder, #email-form::placeholder, #comment-form::placeholder {
+  color:white
+}
+
+#type {
+  width: 75px;
+  left: -20px;
+  margin-bottom: : auto;
+  margin-left: auto;
+  margin-top: 45px;
+  margin-right: 250px;
+}
+
+#comment {
+  margin:auto;
+  bottom:-15px;
+}
